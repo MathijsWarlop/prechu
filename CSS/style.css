@@ -16,6 +16,8 @@
 
 :root {
   --blue: #5094f2;
+  --red: #d94748;
+  --yellow: #ebbb11;
   --text: #6f7173;
   --content-Width: 980px;
 }
@@ -180,6 +182,83 @@ h1 {
   text-align: center;
 }
 /* section hero end */
+/* second section starts here */
+#second-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  text-align: center;
+  height: 328px;
+}
+
+#second-section article {
+  display: inline-block;
+  width: 319px;
+}
+
+#second-section h2 {
+  color: var(--blue);
+}
+
+#second-section img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#newsitem1 {
+  background-color: var(--blue);
+}
+#newsitem2 {
+  background-color: var(--red);
+}
+#newsitem3 {
+  background-color: var(--yellow);
+}
+/* second section ends here */
+/* third section starts here */
+#cart {
+}
+#cart h2 {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Segoe WP";
+  font-weight: 300;
+}
+#cart img {
+  margin: 0 auto;
+}
+#cart h2 {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Segoe WP";
+  font-weight: 300;
+}
+#cart h3 {
+  font-size: 26px;
+  font-family: "Segoe WP";
+  font-weight: 300;
+}
+#cart p {
+  line-height: 2.2;
+}
+#cart div {
+  display: inline-block;
+  width: 46%;
+  vertical-align: top;
+}
+#cart article {
+  display: inline-block;
+  width: 53%;
+  vertical-align: bottom;
+}
+/* third section ends here */
+/* footer start */
+footer {
+  text-align: center;
+  height: 60px;
+  margin-top: 60px;
+}
+/* footer end */
 
 /* .box-zonder {
   background: red;
